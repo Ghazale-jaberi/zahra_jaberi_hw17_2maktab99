@@ -20,7 +20,7 @@ function Movie({ movie, onDeleteMovie, onEdit }) {
         <div>
           <div className="flex flex-row gap-3 mt-3 ">
             <img
-              className="w-30 h-40 mt-[-20px]"
+              className="w-30 h-40 mt-[-25px]"
               src={movie.poster}
               alt={movie.title}
             />
